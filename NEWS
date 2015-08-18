@@ -1,0 +1,5 @@
+qualvar 0.1
+------------------------------
+
+* six functions implemented, with an option for dealing with NAs
+* vignette presenting the functions and replicating Wilcox (1973) example with US 1968 elections
