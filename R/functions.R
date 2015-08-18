@@ -20,6 +20,8 @@
 #' df <- as.data.frame(t(df))
 #' names(df) <- c("a", "b", "c", "d")
 #' apply(df, 1, DM)
+#' @importFrom stats na.omit
+#' @export
 DM <- function(x, na.rm = TRUE) {
   if (na.rm)
     x <- na.omit(x)
@@ -46,11 +48,13 @@ DM <- function(x, na.rm = TRUE) {
 #' @examples
 #' x <- rmultinom(1, 100, rep_len(0.25, 4))
 #' x <- as.vector(t(x))
-#' DM(x)
+#' ADA(x)
 #'
 #' df <- rmultinom(10, 100, rep_len(0.25, 4))
 #' df <- as.data.frame(t(df))
-#' apply(df, 1, DM)
+#' apply(df, 1, ADA)
+#' @importFrom stats na.omit
+#' @export
 ADA <- function(x, na.rm = TRUE) {
   if (na.rm)
     x <- na.omit(x)
@@ -85,6 +89,8 @@ ADA <- function(x, na.rm = TRUE) {
 #' df <- rmultinom(10, 100, rep_len(0.25, 4))
 #' df <- as.data.frame(t(df))
 #' apply(df, 1, MDA)
+#' @importFrom stats na.omit
+#' @export
 MDA <- function(x, na.rm = TRUE) {
   if (na.rm)
     x <- na.omit(x)
@@ -123,6 +129,8 @@ MDA <- function(x, na.rm = TRUE) {
 #' df <- rmultinom(10, 100, rep_len(0.25, 4))
 #' df <- as.data.frame(t(df))
 #' apply(df, 1, VA)
+#' @importFrom stats na.omit
+#' @export
 VA <- function(x, na.rm = TRUE) {
   if (na.rm)
     x <- na.omit(x)
@@ -154,6 +162,8 @@ VA <- function(x, na.rm = TRUE) {
 #' df <- rmultinom(10, 100, rep_len(0.25, 4))
 #' df <- as.data.frame(t(df))
 #' apply(df, 1, HREL)
+#' @importFrom stats na.omit
+#' @export
 HREL <- function(x, na.rm = TRUE) {
   if (na.rm)
     x <- na.omit(x)
@@ -187,6 +197,8 @@ HREL <- function(x, na.rm = TRUE) {
 #' df <- rmultinom(10, 100, rep_len(0.25, 4))
 #' df <- as.data.frame(t(df))
 #' apply(df, 1, B)
+#' @importFrom stats na.omit
+#' @export
 B <- function(x, na.rm = TRUE) {
   if (na.rm)
     x <- na.omit(x)

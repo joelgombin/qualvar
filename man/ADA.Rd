@@ -27,11 +27,11 @@ mean deviation'. The formula for the ADA is:
 \examples{
 x <- rmultinom(1, 100, rep_len(0.25, 4))
 x <- as.vector(t(x))
-DM(x)
+ADA(x)
 
 df <- rmultinom(10, 100, rep_len(0.25, 4))
 df <- as.data.frame(t(df))
-apply(df, 1, DM)
+apply(df, 1, ADA)
 }
 \references{
 Wilcox, Allen R. 'Indices of Qualitative Variation and Political

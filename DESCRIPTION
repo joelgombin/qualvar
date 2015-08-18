@@ -8,5 +8,6 @@ Description: Implements indices of qualitative variation proposed by Wilcox (197
 License: GPL-3
 LazyData: TRUE
 Depends: R (>= 2.10)
+Imports: stats
 Suggests: knitr,dplyr,tidyr,ggplot2,GGally,DT
 VignetteBuilder: knitr
