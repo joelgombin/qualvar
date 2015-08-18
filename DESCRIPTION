@@ -1,0 +1,12 @@
+Package: qualvar
+Type: Package
+Title: Implements indices of qualitative variation proposed by Wilcox (1973)
+Version: 0.1.0
+Author: Joel Gombin
+Maintainer: Joel Gombin <joel.gombin@gmail.com>
+Description: Implements indices of qualitative variation proposed by Wilcox (1973).
+License: GPL-3
+LazyData: TRUE
+Depends: R (>= 2.10)
+Suggests: knitr,dplyr,tidyr,ggplot2,GGally,DT
+VignetteBuilder: knitr
