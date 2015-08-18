@@ -1,4 +1,4 @@
-[![Travis-CI Build Status](https://travis-ci.org/joelgombin/qualvar.svg?branch=master)](https://travis-ci.org/joelgombin/qualvar)
+[![Travis-CI Build Status](https://travis-ci.org/joelgombin/qualvar.svg?branch=master)](https://travis-ci.org/joelgombin/qualvar) [![DOI](https://zenodo.org/badge/17182/joelgombin/qualvar.svg)](https://zenodo.org/badge/latestdoi/17182/joelgombin/qualvar)
 
 # What is this package about?
 
