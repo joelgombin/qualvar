@@ -1,6 +1,6 @@
 Package: qualvar
 Type: Package
-Title: Implements indices of qualitative variation proposed by Wilcox (1973)
+Title: Implements Indices of Qualitative Variation Proposed by Wilcox (1973)
 Version: 0.1.0
 Author: Joel Gombin
 Maintainer: Joel Gombin <joel.gombin@gmail.com>
