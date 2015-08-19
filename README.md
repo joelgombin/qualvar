@@ -6,7 +6,7 @@ In 1973, Wilcox published a paper presenting various indices of qualitative vari
 
 Wilcox presents six indices that can be used to measure qualitative variation. The qualvar package implements these indices so that R users can easily use them.
 
-See the [vignette](./inst/doc/wilcox1973.html) to learn more.
+See the [vignette](http://htmlpreview.github.io/?https://github.com/joelgombin/qualvar/blob/master/inst/doc/wilcox1973.html) to learn more.
 
 #Installation
 
