@@ -10,10 +10,16 @@ See the [vignette](./inst/doc/wilcox1973.html) to learn more.
 
 #Installation
 
-This package will (hopefully) soon be on CRAN. Until then, you can install it via `devtools`:
+This package is now on CRAN, you can install the stable version with:
+
+```{r}
+install.packages("qualvar")
+```
+
+You can also install the development version from Github via `devtools`:
 
 ```{r}
 # if necessary, install devtools
-install.packages("devtools")
+# install.packages("devtools")
 devtools::install_github("joelgombin/qualvar")
 ```
