@@ -2,7 +2,7 @@
 % Please edit documentation in R/functions.R
 \name{MDA}
 \alias{MDA}
-\title{Mean Difference Analog (MDA)}
+\title{Mean Difference Analog (MDA or MNDIF)}
 \usage{
 MDA(x, na.rm = TRUE)
 }
@@ -16,7 +16,7 @@ The value of the MDA statistics, which is normalised (varies between
   0 and 1).
 }
 \description{
-Computes the mean difference analog (MDA) for a vector of frequencies of
+Computes the mean difference analog (MDA or MNDIF) for a vector of frequencies of
 categories.
 }
 \details{

@@ -62,9 +62,9 @@ ADA <- function(x, na.rm = TRUE) {
   1 - (sum(abs(x - nk)) / (2 * nk * (length(x) - 1)))
 }
 
-#' Mean Difference Analog (MDA)
+#' Mean Difference Analog (MDA or MNDIF)
 #'
-#' Computes the mean difference analog (MDA) for a vector of frequencies of
+#' Computes the mean difference analog (MDA or MNDIF) for a vector of frequencies of
 #' categories.
 #'
 #' According to Wilcox (1973, p. 328), the MDA is 'an analog of the mean

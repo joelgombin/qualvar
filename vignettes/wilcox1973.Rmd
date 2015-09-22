@@ -31,7 +31,7 @@ mean deviation'. The formula for the ADA is:
 
 $$ 1 - \frac{\sum_{i=1}^k \left| f_i - \frac{N}{K}\right|}{2 \frac{N}{K}(K-1)} $$
 
-## The MDA (mean difference analog)
+## The MDA (or MNDIF -- mean difference analog)
 
 According to Wilcox (1973, p. 328), the MDA is 'an analog of the mean
 difference, a measure of variation that is discussed and used much less
