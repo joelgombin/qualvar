@@ -35,4 +35,3 @@ apply(df, 1, DM)
 \references{
 Wilcox, Allen R. 'Indices of Qualitative Variation and Political Measurement.' \emph{The Western Political Quarterly} 26, no. 2 (1 June 1973): 325-43. doi:10.2307/446831.
 }
-

@@ -37,4 +37,3 @@ Wilcox, Allen R. 'Indices of Qualitative Variation and Political
   1973): 325-43. doi:10.2307/446831.
   Senders, Virginia L. Measurement and Statistics. New York: Oxford University Press, 1958.
 }
-

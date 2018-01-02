@@ -15,4 +15,3 @@ wilcox1973
 A dataset containing the returns of the 1968 US presidential election, by states.
 }
 \keyword{datasets}
-

@@ -13,7 +13,7 @@ Depends:
 Imports:
     stats
 Suggests:
-    knitr,dplyr,tidyr,ggplot2,GGally,DT
+    knitr,rmarkdown,dplyr,tidyr,ggplot2,GGally,DT
 VignetteBuilder: 
     knitr,rmarkdown
-RoxygenNote: 5.0.0
+RoxygenNote: 6.0.1

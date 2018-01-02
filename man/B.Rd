@@ -39,4 +39,3 @@ Wilcox, Allen R. 'Indices of Qualitative Variation and Political
   1973): 325-43. doi:10.2307/446831.
   Kaiser, Henry F. 'A Measure of the Population Quality of Legislative Apportionment.' \emph{The American Political Science Review} 62, no. 1 (March 1968): 208. doi:10.2307/1953335.
 }
-
