@@ -1,7 +1,7 @@
 Package: qualvar
 Type: Package
 Title: Implements Indices of Qualitative Variation Proposed by Wilcox (1973)
-Version: 0.2
+Version: 0.2.0
 Authors@R: person("Joel", "Gombin", role=c("aut", "cre"), email="joel.gombin@gmail.com")
 URL: http://joelgombin.github.io/qualvar/
 BugReports: https://www.github.com/joelgombin/qualvar/issues
