@@ -105,9 +105,9 @@ datatable(wilcox1973, options = list(pageLength = 60))
 
 ```
 
-Then we can examine how these various indices are correlated. As this plot shows, all six indices are highly correlated in this example, even though the correlation between the DM and MDA indice is not so strong. 
+Then we can examine how these various indices are correlated. As this plot shows, all six indices are highly correlated in this example, even though the correlation between the DM and B indice is not so strong. 
 
-```{r correlation, fig.width=8, fig.height=8, fig.cap="Scatterplots, kernel density and correlation between all six indices."}
+```{r correlation, fig.width=8, fig.height=8, fig.cap="Scatterplots, kernel density and correlation between all six indices.", warning=FALSE, message=FALSE}
 library(ggplot2)
 library(GGally)
 library(dplyr)

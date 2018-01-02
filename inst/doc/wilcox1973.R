@@ -30,7 +30,7 @@ wilcox1973[,5:10] <- apply(wilcox1973[,5:10], 2, function(x) round(x, digits = 3
 datatable(wilcox1973, options = list(pageLength = 60))
 
 
-## ----correlation, fig.width=8, fig.height=8, fig.cap="Scatterplots, kernel density and correlation between all six indices."----
+## ----correlation, fig.width=8, fig.height=8, fig.cap="Scatterplots, kernel density and correlation between all six indices.", warning=FALSE, message=FALSE----
 library(ggplot2)
 library(GGally)
 library(dplyr)
