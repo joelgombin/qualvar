@@ -4,10 +4,15 @@ Title: Implements Indices of Qualitative Variation Proposed by Wilcox (1973)
 Version: 0.1.0.9000
 Author: Joel Gombin
 Maintainer: Joel Gombin <joel.gombin@gmail.com>
-Description: Implements indices of qualitative variation proposed by Wilcox (1973).
+Description: Implements indices of qualitative variation proposed by Wilcox
+    (1973).
 License: GPL-3
 LazyData: TRUE
-Depends: R (>= 2.10)
-Imports: stats
-Suggests: knitr,dplyr,tidyr,ggplot2,GGally,DT
+Depends:
+    R (>= 2.10)
+Imports:
+    stats
+Suggests:
+    knitr,dplyr,tidyr,ggplot2,GGally,DT
 VignetteBuilder: knitr
+RoxygenNote: 5.0.0
