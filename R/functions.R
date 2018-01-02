@@ -143,7 +143,7 @@ VA <- function(x, na.rm = TRUE) {
 #'
 #' Computes the HREL index for a vector of frequencies of categories.
 #'
-#' According to Wilcox (1973, p. 329), and following Senders (1958), the HREL is 'a measure originally developed by engineers for use in specifying the properties of communications channels. The rationale for HREL is presented in terms of guessing by Virginia Senders (supplementing the mode as best guess): "What we need is a measure of uncertainty, or of 'poorness of a guess,' which will be high when the number of alternative possibilities is high, and low when some ofthe possibilities are much more likely than others. One possible measure is the average number of questions we have to ask to specify the correct alternative'. The formula for the HREL is:
+#' According to Wilcox (1973, p. 329), and following Senders (1958), the HREL is 'a measure originally developed by engineers for use in specifying the properties of communications channels. The rationale for HREL is presented in terms of guessing by Virginia Senders (supplementing the mode as best guess): "What we need is a measure of uncertainty, or of 'poorness of a guess,' which will be high when the number of alternative possibilities is high, and low when some of the possibilities are much more likely than others. One possible measure is the average number of questions we have to ask to specify the correct alternative'. The formula for the HREL is:
 #' \deqn{- \frac{\sum_{i=1}^k \frac{f_i}{N} \log_2 \frac{f_i}{N}}{\log_2 K}}
 #'
 #' @param x a vector of frequencies
